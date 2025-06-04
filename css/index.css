@@ -1,0 +1,90 @@
+/* Estilos generales */
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #0a0a0a;
+    color: #ffffff;
+}
+
+/* Navbar */
+.navbar {
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+}
+
+.navbar-brand {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #ffcc00 !important;
+}
+
+.navbar-nav .nav-link {
+    font-size: 1.2rem;
+    margin-left: 10px;
+    transition: 0.3s;
+    color: #ffffff !important;
+}
+
+.navbar-nav .nav-link:hover {
+    color: #ff00ff !important;
+}
+
+/* Hero Section */
+.hero {
+    background: url('images/banner.jpg') no-repeat center center/cover;
+    background-blend-mode: overlay;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-shadow: 2px 2px 10px rgba(255, 0, 255, 0.8);
+}
+.hero h1 {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ff00ff;
+}
+.hero p {
+    font-size: 1.5rem;
+    color: #00ffff;
+}
+
+/* Cards */
+.card {
+    border-radius: 15px;
+    transition: transform 0.3s, box-shadow 0.3s;
+    background: #111;
+    color: #ffffff;
+    border: 2px solid #ff00ff;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 12px rgba(255, 0, 255, 0.8);
+}
+
+.card-title {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #00ffff;
+}
+
+/* Botones */
+.btn-primary {
+    background-color: #ff00ff;
+    border: none;
+    color: #fff;
+}
+.btn-primary:hover {
+    background-color: #d400d4;
+}
+.btn-danger {
+    background-color: #00ffff;
+    border: none;
+    color: #000;
+}
+.btn-danger:hover {
+    background-color: #00cccc;
+}
+
+/* Footer */
+footer {
+    background: linear-gradient(90deg, #ff00ff, #00ffff);
+    color: #fff;
+    padding: 20px 0;
+}

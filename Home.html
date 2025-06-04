@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+
+<html lang="es">
+<head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1" name="viewport"/>
+<title>Tienda de Accesorios y Teléfonos</title>
+<link href="css/bootstrap.min.css" rel="stylesheet"/>
+<style>
+        html, body {
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .content {
+            flex: 1;
+        }
+        footer {
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+<style>
+/* Efectos Xiaomi y mejoras visuales */
+.img-fluid {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.img-fluid:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 102, 0, 0.6);
+}
+.xiaomi-orange {
+    background-color: #ff6700 !important;
+    color: white !important;
+}
+.btn-xiaomi {
+    background-color: #ff6700;
+    color: white;
+    border: none;
+}
+.btn-xiaomi:hover {
+    background-color: #e55d00;
+    color: white;
+}
+</style><style>
+.card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border: none;
+    border-radius: 1rem;
+}
+.card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 8px 20px rgba(255, 102, 0, 0.4);
+}
+
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.card-body {
+    flex: 1 1 auto;
+}
+</style><link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet"/></head>
+<body class="bg-dark text-white">
+<nav class="xiaomi-orange shadow navbar-dark shadow-lg py-3 navbar mb-4 navbar-expand-lg">
+<div class="container">
+<a class="text-white fw-semibold navbar-brand fw-bold fs-4" href="#">Xiaomi Center</a>
+<button class="navbar-toggler" data-bs-target="#navbarNav" data-bs-toggle="collapse" type="button">
+<span class="navbar-toggler-icon"></span>
+</button>
+<div class="collapse navbar-collapse" id="navbarNav">
+<ul class="navbar-nav ms-auto">
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Home.html">Inicio</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Gadgets.html">Gadgets</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Fundas.html">Fundas</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="PowerBanks.html">PowerBanks</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Cargadores.html">Cargadores</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Tablets .html">Tablets</a></li>
+<li class="nav-item"><a class="nav-link text-white fw-semibold" href="Telefonos.html">Telefonos</a></li>
+</ul>
+</div>
+</div>
+</nav><div class="container mt-4 content"><div class="content">
+<header class="text-center py-5 bg-gradient text-white">
+<div class="container">
+
+<div class="carousel slide mb-4" data-bs-ride="carousel" id="xiaomiCarousel">
+<div class="carousel-inner rounded shadow">
+<div class="carousel-item active">
+<img alt="Xiaomi 1" class="d-block w-100" src="img/img5.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Xiaomi 2" class="d-block w-100" src="img/img6.jpg"/>
+</div>
+<div class="carousel-item">
+<img alt="Xiaomi 3" class="d-block w-100" src="img/img7.jpg"/>
+</div>
+</div>
+<button class="carousel-control-prev" data-bs-slide="prev" data-bs-target="#xiaomiCarousel" type="button">
+<span aria-hidden="true" class="carousel-control-prev-icon"></span>
+<span class="visually-hidden">Anterior</span>
+</button>
+<button class="carousel-control-next" data-bs-slide="next" data-bs-target="#xiaomiCarousel" type="button">
+<span aria-hidden="true" class="carousel-control-next-icon"></span>
+<span class="visually-hidden">Siguiente</span>
+</button>
+</div>
+
+<h1 class="display-3 fw-bold">Los Mejores Teléfonos y Accesorios</h1>
+<p class="lead">Compra los últimos modelos con grandes descuentos.</p>
+<a class="btn me-2 btn btn-xiaomi me-2" href="productos.html">Ver Productos</a>
+</div>
+</header>
+<section class="container my-5">
+<h2 class="text-center mb-4">Destacados</h2>
+<div class="row">
+<div class="col-md-4">
+<div class="card text-dark">
+<img alt="Teléfono 1" class="img-fluid shadow-sm card-img-top rounded" src="imagen/img3.png"/>
+<div class="card-body">
+<h5 class="card-title">Samsung Galaxy S25 Ultra</h5>
+<p class="card-text">Pantalla Amoled 120 Hz, 1TB Rom 12GB Ram, 5G, One UI 7 basado en Android 15, Wifi 7 Tech NFC, S-Pen By samnsung </p>
+<a class="btn me-2 btn btn-xiaomi me-2" href="#">Comprar</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card text-dark">
+<img alt="Teléfono 2" class="img-fluid shadow-sm card-img-top rounded" src="imagen/img2.png"/>
+<div class="card-body">
+<h5 class="card-title">HONOR X8b</h5>
+<p class="card-text">Cámara de 108MP, batería de larga duración, MagicOs 8.0 basado en Android 14, 256GB Rom 8 + 8 Ram turbo By Honor</p>
+<a class="btn me-2 btn btn-xiaomi me-2" href="#">Comprar</a>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card text-dark">
+<img alt="Accesorio" class="img-fluid shadow-sm card-img-top rounded" src="imagen/img4.png"/>
+<div class="card-body">
+<h5 class="card-title">JBL Tour Pro 2</h5>
+<p class="card-text">Version Bluetooth 5.3, Rango de Frecuencia 2.4 GHz, Tiempo de reproduccion de 10 Horas,  tiempo de juego maximo 40 Horas</p>
+<a class="btn me-2 btn btn-xiaomi me-2" href="#">Comprar</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+</div><script src="js/bootstrap.bundle.min.js"></script></div>
+
+<footer class="bg-primary text-center py-3 mt-auto bg-dark text-center py-4 mt-4"><div class="d-flex justify-content-center gap-4 mb-3"><a class="text-white fs-4" href="https://www.facebook.com/groups/532840457193969/?ref=share&mibextid=KtfwRi" target="_blank"><i class="bi bi-facebook"></i></a><a class="text-white fs-4" href="https://wa.me/+59172751416" target="_blank"><i class="bi bi-whatsapp"></i></a><a class="text-white fs-4" href="https://www.instagram.com/xiaomi.bolivia_oficial?igsh=OWlkdWJ3YmV1dm0x" target="_blank"><i class="bi bi-instagram"></i></a></div>
+<p class="mb-0">© 2025 TechStore</p>
+
+<div class="text-white mt-3">
+<a class="text-white text-decoration-none" href="https://maps.app.goo.gl/7L6FpojacwFYu9o58" target="_blank">
+<i class="bi bi-geo-alt-fill me-2"></i> Edificio Santa Isabel, Av. Arce, La Paz, Bolivia
+  </a>
+</div>
+</footer>
+
+</body>
+</html>
